@@ -85,7 +85,7 @@ class Timsort<T> {
     /**
      * The array being sorted.
      */
-    private final T[] a;dd
+    private final T[] a;
 
 
     /**
