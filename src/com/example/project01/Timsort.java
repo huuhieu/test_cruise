@@ -81,10 +81,18 @@ class Timsort<T> {
      */
     private static final int MIN_MERGE = 32;
     
+<<<<<<< HEAD
     /**
      * The array being sorted.
      */
-    private final T[] a;dty
+    private final T[] a;
+=======
+
+    /**
+     * The array being sorted.
+     */
+    private final T[] a;
+>>>>>>> ffa9b74be241f04b68cb848e577a5af30bb9f75b
 
     /**
      * The comparator for this sort.
