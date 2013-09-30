@@ -89,12 +89,6 @@ class Timsort<T> {
 
 
     /**
-     * The array being sorted.
-     */
-    private final T[] a;
-
-
-    /**
      * The comparator for this sort.
      */
     private final Comparator<? super T> c;
