@@ -87,7 +87,6 @@ class Timsort<T> {
      */
     private final T[] a;
 
-
     /**
      * The comparator for this sort.
      */

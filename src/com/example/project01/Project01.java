@@ -11,6 +11,7 @@ import android.view.Window;
 public class Project01 extends Activity {
 	
     private Handler handler=new Handler() {
+		@Override
 		public void handleMessage(Message msg) 
 		{
 			try 
@@ -44,7 +45,8 @@ public class Project01 extends Activity {
 	}
 
 
-    public void onStart() 
+    @Override
+	public void onStart() 
 	{
     	isRunning = true;
     	super.onStart();
@@ -69,7 +71,8 @@ public class Project01 extends Activity {
     	background.start();
 	}
     
-    public void onStop()
+    @Override
+	public void onStop()
     {
     	super.onStop();
     	isRunning = false;
