@@ -1,0 +1,26 @@
+D:\test\bin\classes.dex : \
+D:\test\bin\classes\com\example\project01\Array_screen.class \
+D:\test\bin\classes\com\example\project01\BuildConfig.class \
+D:\test\bin\classes\com\example\project01\Choice.class \
+D:\test\bin\classes\com\example\project01\CountingSortSteps.class \
+D:\test\bin\classes\com\example\project01\MergeSortSteps.class \
+D:\test\bin\classes\com\example\project01\Project01$1.class \
+D:\test\bin\classes\com\example\project01\Project01$2.class \
+D:\test\bin\classes\com\example\project01\Project01.class \
+D:\test\bin\classes\com\example\project01\R$attr.class \
+D:\test\bin\classes\com\example\project01\R$drawable.class \
+D:\test\bin\classes\com\example\project01\R$id.class \
+D:\test\bin\classes\com\example\project01\R$layout.class \
+D:\test\bin\classes\com\example\project01\R$menu.class \
+D:\test\bin\classes\com\example\project01\R$string.class \
+D:\test\bin\classes\com\example\project01\R$style.class \
+D:\test\bin\classes\com\example\project01\R.class \
+D:\test\bin\classes\com\example\project01\Result.class \
+D:\test\bin\classes\com\example\project01\Sort_screen$1.class \
+D:\test\bin\classes\com\example\project01\Sort_screen$2.class \
+D:\test\bin\classes\com\example\project01\Sort_screen.class \
+D:\test\bin\classes\com\example\project01\Timsort.class \
+D:\test\bin\classes\com\example\project01\TimsortSteps$1.class \
+D:\test\bin\classes\com\example\project01\TimsortSteps.class \
+D:\test\bin\dexedLibs\annotations-6cef0b43bcda4e3a6fe7b14a5cb37a1c.jar \
+D:\test\bin\dexedLibs\android-support-v4-9718d2eceb0032139089b54ddf4f2a38.jar \

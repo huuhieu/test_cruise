@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:26
+-keep class com.example.project01.Array_screen { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.example.project01.Choice { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.example.project01.Project01 { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.example.project01.Result { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.example.project01.Sort_screen { <init>(...); }
+
+# onClick res/layout/array_screen.xml #generated:89
+-keepclassmembers class * { *** btNew(...); }
+
+# onClick res/layout/array_screen.xml #generated:80
+-keepclassmembers class * { *** btNext(...); }
+
+# onClick res/layout/sort_screen.xml #generated:45
+-keepclassmembers class * { *** btOK(...); }
+
+# onClick res/layout/result_screen.xml #generated:100
+-keepclassmembers class * { *** btReset(...); }
+
+# onClick res/layout/choice_screen.xml #generated:24
+-keepclassmembers class * { *** onButtonClick01(...); }
+
+# onClick res/layout/choice_screen.xml #generated:35
+-keepclassmembers class * { *** onButtonClick02(...); }
+
+# onClick res/layout/choice_screen.xml #generated:46
+-keepclassmembers class * { *** onButtonClick03(...); }
+
