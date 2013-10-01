@@ -1,2 +1,0 @@
-task :cruise do
-end
