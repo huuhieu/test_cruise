@@ -17,12 +17,12 @@ Feature: Login feature
     Given I want to use TimSort feature
     Then I want use TimSort to sort 6 numbers
     But I dont like this number array, so I chose a new number array
-    Then I see number array after sort and sort steps
+    Then I see number array after timsort and sort steps
 
   Scenario: Test Merge Sort feature and scroll down
     Given I want to use MergeSort feature
     Then I want to use MergeSort to sort 9 numbers
     And I see random number array, I like it so I want to use it
-    Then I see number array after sort and sort steps
+    Then I see number array after merge sort and sort steps
     But I cant see all steps, so I scroll down to see the rest
   

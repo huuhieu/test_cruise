@@ -55,8 +55,13 @@ But /^I dont like this number array, so I chose a new number array$/ do
 	touch("button index:0")
 end
 
-Then /^I see number array after sort and sort steps$/ do
+Then /^I see number array after timsort and sort steps$/ do
 	element_exists("Timsort with steps")
+	touch("button index:0")
+end
+
+Then /^I see number array after merge sort and sort steps$/ do
+	element_exists("MergeSort with steps")
 	touch("button index:0")
 end
 
@@ -73,10 +78,6 @@ end
 And /^I see random number array, I like it so I want to use it$/ do
 #	element_exists("Merge Sort is processing...")
 	touch("button index:0")
-end
-
-Then /^I see number array after sort and sort steps$/ do
-	element_exists("Merge Sort with steps")
 end
 
 But /^I cant see all steps, so I scroll down to see the rest$/ do
