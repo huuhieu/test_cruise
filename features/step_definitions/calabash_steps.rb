@@ -34,7 +34,6 @@ Then /^I enter number of digits i want to sort$/ do
 end
 
 Then /^I want to get a new random number array$/ do
-	#element_exists("Counting Sort is processing...")
 	touch("button index:1")
 	touch("button index:1")
 end
@@ -50,7 +49,6 @@ Then /^I want use TimSort to sort 6 numbers$/ do
 end
 
 But /^I dont like this number array, so I chose a new number array$/ do
-	#element_exists("Timsort is processing...")
 	touch("button index:1")
 	touch("button index:0")
 end
@@ -61,7 +59,7 @@ Then /^I see number array after timsort and sort steps$/ do
 end
 
 Then /^I see number array after merge sort and sort steps$/ do
-	element_exists("MergeSort with steps")
+	element_exists("Merge Sort with steps")
 	touch("button index:0")
 end
 
@@ -76,11 +74,5 @@ Then /^I want to use MergeSort to sort 9 numbers$/ do
 end
 
 And /^I see random number array, I like it so I want to use it$/ do
-#	element_exists("Merge Sort is processing...")
-	touch("button index:0")
-end
-
-But /^I cant see all steps, so I scroll down to see the rest$/ do
-	macro Then I scroll down
 	touch("button index:0")
 end

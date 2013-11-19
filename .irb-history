@@ -1,0 +1,50 @@
+;
+;
+)
+check_element_exists("TextView marked:'What is the algorithm that you want to work with?'")
+check_element_exists("TextView marked:'What is the algorithm that you want to work with'")
+check_element_exists("TextView marked:'What is the algorithm that you want to work with?'")
+query("button")
+touch("button marked:'Couting Sort'")
+touch("button marked:'Counting Sort'")
+start_test_server_in_background
+query("TextView")
+query("TextView marked:'What is the algorithm that you want to work with?'")
+query("android.view.View")
+element_exists("What is the algorithm that you want to work with")
+element_exists("What is the algorithm that you want to work with")
+check_element_exists("button marked:'Merge Sort'")
+check_element_exists("button marked:'What is the algorithm\nthat you want to work with'")
+exit
+reinstall_apps
+start_test_server_in_background
+touch("button marked:'Merge Sort'")
+element_exists("Merge Sort is processing...")
+;
+;
+;
+l'l
+l';
+)
+query("button")
+a';d
+as
+d';'ds;f'
+sd;
+)
+exit
+reinstall_apps
+start_test_server_in_background
+touch("button marked:'Merge Sort'")
+element_exists("Merge Sort is chosen")
+query("TextView")
+check_element_exists("TextView marked:'Merge Sort is chosen'")
+query("edittext index:0", setText:"9")
+query("button")
+touch("button marked:'OK'")
+query("button")
+touch("button index:0")
+query("button")
+query("button")
+check_element_exists("TextView marked:'Merge Sort is processing...'")
+exit
