@@ -10,8 +10,8 @@ require 'calabash-android/calabash_steps'
 #end
 
 Given /^I start my app$/ do
-	element_exists("Sort Algorithms")
-	element_exists("Welcom to Team Six Projects")
+	element_exists("Sort Algorithm")
+	element_exists("Welcom to Team Six Project")
 	query("button")
 end
 
